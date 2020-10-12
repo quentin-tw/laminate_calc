@@ -20,14 +20,16 @@ Python (>= 3.6)</br>NumPy (>= 1.15)
 ## Quick Start
 
 Clone the repository in your local directory:
-
-`git clone https://github.com/quentin-tw/laminate_calc.git`
+```
+git clone https://github.com/quentin-tw/laminate_calc.git
+```
 
 To simply run the program and see the results, only `laminate_main`,
 `input_files/laminate_input.lmc`, `input_files/material_data.lmc` are required.
 
 `laminate_input.lmc` is a simple text file containing inputs for the 
-`laminate_main`. The following is an example of `laminate_input.lmc`
+`laminate_main`. The following is an example of `laminate_input.lmc`:
+
 ```
 Laminate Code  : [0/45/-45/90]8s4
 Material Label : [M1, M2, M1, M2]
@@ -50,6 +52,7 @@ For detail information of the file format, see `include/input_parser.h`.
 
 After setting up `laminate_input.lmc` and `material_data.lmc`, run the program
 to obtain the calculation result:
+
 ```
 ./laminate_main
 ```
