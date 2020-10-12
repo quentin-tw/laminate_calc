@@ -7,7 +7,8 @@ plots.
 
 This code uses **Eigen** for matrix operation and linear algebra calculation. 
 Related files (Version eigen-3.3.7) are included in the `lib` folder for convenience in 
-compilation. For licensing, detail information, and newer versions  of Eigen please visit:
+compilation. The licenses (Not a MIT License) of Eigen is include in the 
+`lib\eigen-3.3.7`For licensing, detail information, and newer versions  of Eigen please visit:
 http://eigen.tuxfamily.org/ .
 
 ## Requirements:
