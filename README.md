@@ -63,5 +63,5 @@ python3 ./profile_ploy.py
 
 A plot `laminate_profile_plot.png` will be generated in the `output_files` folder.
 
-![Profile Plot Result] (https://raw.githubusercontent.com/quentin-tw/laminate_calc/main/output_files/laminate_profile_plot.png)
+![Profile Plot Result] (https://github.com/quentin-tw/laminate_calc/blob/main/output_files/laminate_profile_plot.png)
 
