@@ -7,10 +7,17 @@ plots.
 
 This code uses **Eigen** for matrix operation and linear algebra calculation. 
 Related files (Version eigen-3.3.7) are included in the `lib` folder for convenience in 
-compilation. For licensing and detail information of Eigen please visit:
+compilation. For licensing, detail information, and newer versions  of Eigen please visit:
 http://eigen.tuxfamily.org/ .
 
-## Quick Start: Laminate_main
+## Requirements:
+### Calculation:
+GNU GCC(>= 8.3)</br> Eigen(>= 3.3.7)
+### Ploting profile:
+Python (>= 3.6)</br>NumPy (>= 1.15)
+</br> matplotlib(>= 3.3.0)
+
+## Quick Start
 
 Clone the repository in your local directory:
 
@@ -65,16 +72,20 @@ A plot `laminate_profile_plot.png` will be generated in the `output_files` folde
 
 ![ProfilePlotResult](/output_files/laminate_profile_plot.png)
 
-## Using The Source Codes
+## Using The Source Code
 
 The `makefile` already includes the path for **Eigen** in the `lib` folder, so
-no additional set-up is needed for Eigen if gnu g++ compiler is used. To compile
-the source code, simply execute the makefile in the shell:
+no additional set-up is needed for Eigen if gnu g++ compiler is used. The program is
+consists of four parts: `src/laminate_main.cc` (The main entry), `lib/input_parser.cc`
+(parsing input files), `lib/ply.cc`(modeling a single lamina), and `lib/laminate.cc` 
+(modeling the laminate that consist of plys).
+
+To compile the source codes, simply execute the makefile in the shell:
 
 ```
 make
 ```
-
+A executable `laminate_main` will then be generated.
 
 ## Reference:
 
