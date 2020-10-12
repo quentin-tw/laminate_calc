@@ -5,12 +5,12 @@ notation, and calculate the properties, stresses and strains of composite
 material laminate. A python script is used to generate stress and strain profile 
 plots.
 
-This code uses Eigen for matrix operation and linear algebra calculation. Related
-files (Version eigen-3.3.7) are included in the `lib` folder for convenience in 
+This code uses **Eigen** for matrix operation and linear algebra calculation. 
+Related files (Version eigen-3.3.7) are included in the `lib` folder for convenience in 
 compilation. For licensing and detail information of Eigen please visit:
 http://eigen.tuxfamily.org/ .
 
-## Quick Start
+## Quick Start: Laminate_main
 
 Clone the repository in your local directory:
 
@@ -65,3 +65,18 @@ A plot `laminate_profile_plot.png` will be generated in the `output_files` folde
 
 ![ProfilePlotResult](/output_files/laminate_profile_plot.png)
 
+## Using The Source Codes
+
+The `makefile` already includes the path for **Eigen** in the `lib` folder, so
+no additional set-up is needed for Eigen if gnu g++ compiler is used. To compile
+the source code, simply execute the makefile in the shell:
+
+```
+make
+```
+
+
+## Reference:
+
+Kollar, L.P., G.S. Springer: *Mechanics of Composite Structures*. 
+Cambridge University Press, Cambridge, 2003.
