@@ -63,5 +63,5 @@ python3 ./profile_ploy.py
 
 A plot `laminate_profile_plot.png` will be generated in the `output_files` folder.
 
-![ProfilePlotResult] (/output_files/laminate_profile_plot.png)
+![ProfilePlotResult](/output_files/laminate_profile_plot.png)
 
